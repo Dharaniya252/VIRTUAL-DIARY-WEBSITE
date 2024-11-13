@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Virtual Diary</title>
+        <link rel="stylesheet" href="diary.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="backimg"></div> 
+            <div class="msg">
+                <div class="box">
+                    <h2>02/05/2002</h1>
+                    <h1>Birthday</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis quisquam eos ipsa numquam quo, 
+                    culpa odio quos eligendi, tempore quam nam aut, rerum nulla unde optio excepturi minima. Dolore 
+                    quos necessitatibus eos nemo deleniti dolorem, placeat doloribus id non similique?</p>
+                    <button onclick="msgdelete(event)">Delete</button>
+                    <p>--------------------------------------------------------------------------------------------</p>
+                </div> 
+            </div> 
+        </div>
+        
+            <div class="container1">
+                <div class="popup-overlay"></div>
+            
+            
+                <div class="popup-box">
+                    <h2>Add your memory!</h2>
+                    <form action="">
+                        <input type="text" placeholder="Date" id="date">
+                        <input type="text"placeholder="Title"id="title">
+                        <textarea placeholder="Short Description" id="description" ></textarea>
+                        <button id="addmsg">Add</button>
+                        <button id="cancel">Cancel</button>
+                    </form>
+                </div>
+            </div>
+            <button class="btn"id="popup-btn">+</button> 
+    
+           <script src="diary.js"></script>
+        
+        
+    </body>
+</html>
