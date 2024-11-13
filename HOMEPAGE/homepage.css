@@ -1,0 +1,49 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background:url('d1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+}
+.name
+{
+    display: inline-block;
+    width:30%;
+    height:50%;
+    margin:19% 0 0 45.5%; 
+   
+}
+.name p
+{
+    font-size:61px;
+    padding:0;
+    transform: rotate(346deg);
+    color: rgb(1, 1, 95);
+}
+.link
+{
+  width:25%;
+  position:fixed; 
+  bottom:7%;
+  right:3.5%;
+}
+
+button
+{
+    font-size:19px;
+    padding:5px 35px;
+    border-radius:10px;
+    margin:0 0 0 6%;
+    background: transparent;
+}
+button:hover
+{
+    background-color: rgba(83, 8, 15, 0.356);
+    color: white;
+
+}
